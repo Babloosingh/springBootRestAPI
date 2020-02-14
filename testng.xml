@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Converted JUnit suite" >
+   <test name = "JUnitTests" junit="true">
+      <classes>
+         <class name="com.staxrt.tutorial.CreateUser"/>
+         <class name="com.staxrt.tutorial.GetAllUsers"/>
+         <class name="com.staxrt.tutorial.UpdatePost"/>
+         <class name="com.staxrt.tutorial.GetUserById"/>
+         <class name="com.staxrt.tutorial.DeletePost"/>
+      </classes>
+   </test>
+</suite>
+
+      

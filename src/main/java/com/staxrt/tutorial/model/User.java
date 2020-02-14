@@ -25,6 +25,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 public class User {
 
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
@@ -124,13 +125,10 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", email='" + email + '\'' +
-                ", createdAt=" + createdAt +
-                ", createdBy='" + createdBy + '\'' +
+				", firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", email='" + email + '\''
+				+ ", createdAt=" + createdAt + ", createdBy='" + createdBy + '\'' +
                 ", updatedAt=" + updatedAt +
-                ", updatedby='" + updatedBy + '\'' +
+				", updatedby='" + updatedBy + '\'' +
                 '}';
     }
 

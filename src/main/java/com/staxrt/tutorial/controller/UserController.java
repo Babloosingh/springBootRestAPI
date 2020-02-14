@@ -27,6 +27,7 @@ import com.staxrt.tutorial.repository.UserRepository;
 //@RequestMapping("/company")
 public class UserController {
 
+
 	@RequestMapping("/")
 	public String home() {
 		return "Hello World";
@@ -37,6 +38,7 @@ public class UserController {
 
 	@GetMapping("/users")
 	public List<User> getAllUsers() {
+
 		return (List<User>) CrudRepository.findAll();
 	}
 
