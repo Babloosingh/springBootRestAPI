@@ -23,8 +23,11 @@ import com.staxrt.tutorial.exception.ResourceNotFoundException;
 import com.staxrt.tutorial.model.User;
 import com.staxrt.tutorial.repository.UserRepository;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 //@RequestMapping("/company")
+@Slf4j
 public class UserController {
 
 
