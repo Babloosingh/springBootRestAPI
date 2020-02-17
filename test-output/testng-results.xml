@@ -2,46 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Converted JUnit suite" duration-ms="13791" started-at="2020-02-15T21:33:15 IST" finished-at="2020-02-15T21:33:28 IST">
+  <suite name="Converted JUnit suite" duration-ms="13333" started-at="2020-02-17T10:18:13 IST" finished-at="2020-02-17T10:18:26 IST">
     <groups>
     </groups>
-    <test name="JUnitTests" duration-ms="13791" started-at="2020-02-15T21:33:15 IST" finished-at="2020-02-15T21:33:28 IST">
+    <test name="JUnitTests" duration-ms="13333" started-at="2020-02-17T10:18:13 IST" finished-at="2020-02-17T10:18:26 IST">
       <class name="com.staxrt.tutorial.GetUserById">
-        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="13" started-at="2020-02-15T21:33:28 IST" finished-at="2020-02-15T21:33:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contextLoads -->
-        <test-method status="PASS" signature="testGetUserById()" name="testGetUserById" duration-ms="52" started-at="2020-02-15T21:33:28 IST" finished-at="2020-02-15T21:33:28 IST">
+        <test-method status="PASS" signature="testGetUserById()" name="testGetUserById" duration-ms="58" started-at="2020-02-17T10:18:26 IST" finished-at="2020-02-17T10:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserById -->
+        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="11" started-at="2020-02-17T10:18:26 IST" finished-at="2020-02-17T10:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextLoads -->
       </class> <!-- com.staxrt.tutorial.GetUserById -->
       <class name="com.staxrt.tutorial.CreateUser">
-        <test-method status="PASS" signature="testCreateUser()" name="testCreateUser" duration-ms="12768" started-at="2020-02-15T21:33:15 IST" finished-at="2020-02-15T21:33:28 IST">
+        <test-method status="PASS" signature="testCreateUser()" name="testCreateUser" duration-ms="12123" started-at="2020-02-17T10:18:13 IST" finished-at="2020-02-17T10:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateUser -->
-        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="12783" started-at="2020-02-15T21:33:15 IST" finished-at="2020-02-15T21:33:28 IST">
+        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="12136" started-at="2020-02-17T10:18:13 IST" finished-at="2020-02-17T10:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contextLoads -->
       </class> <!-- com.staxrt.tutorial.CreateUser -->
       <class name="com.staxrt.tutorial.UpdatePost">
-        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="203" started-at="2020-02-15T21:33:28 IST" finished-at="2020-02-15T21:33:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contextLoads -->
-        <test-method status="PASS" signature="testUpdatePost()" name="testUpdatePost" duration-ms="192" started-at="2020-02-15T21:33:28 IST" finished-at="2020-02-15T21:33:28 IST">
+        <test-method status="PASS" signature="testUpdatePost()" name="testUpdatePost" duration-ms="285" started-at="2020-02-17T10:18:26 IST" finished-at="2020-02-17T10:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdatePost -->
-      </class> <!-- com.staxrt.tutorial.UpdatePost -->
-      <class name="com.staxrt.tutorial.DeletePost">
-        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="102" started-at="2020-02-15T21:33:28 IST" finished-at="2020-02-15T21:33:28 IST">
+        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="296" started-at="2020-02-17T10:18:26 IST" finished-at="2020-02-17T10:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contextLoads -->
-        <test-method status="PASS" signature="testDeletePost()" name="testDeletePost" duration-ms="94" started-at="2020-02-15T21:33:28 IST" finished-at="2020-02-15T21:33:28 IST">
+      </class> <!-- com.staxrt.tutorial.UpdatePost -->
+      <class name="com.staxrt.tutorial.DeletePost">
+        <test-method status="PASS" signature="contextLoads()" name="contextLoads" duration-ms="105" started-at="2020-02-17T10:18:26 IST" finished-at="2020-02-17T10:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextLoads -->
+        <test-method status="PASS" signature="testDeletePost()" name="testDeletePost" duration-ms="96" started-at="2020-02-17T10:18:26 IST" finished-at="2020-02-17T10:18:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeletePost -->
